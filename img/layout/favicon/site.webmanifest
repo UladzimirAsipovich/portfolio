@@ -1,0 +1,28 @@
+{
+  "name": "Front-end разработчик Владимир Осипович",
+  "short_name": "VladOS Frontend",
+  "lang": "ru-RU",
+  "id": "/",
+  "categories": ["business", "lifestyle"],
+  "description": "Web Front-end Developer🔥 «☎️ +375 (25) 787-01-16 — GSM, WhatsApp, Viber or Telegram»",
+  "start_url": "https://vlados-frontent.by/",
+  "orientation": "portrait-primary",
+  "scope": "https://vlados-frontent.by/",
+  "icons": [
+    {
+      "src": "/img/layout/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/layout/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#171717",
+  "background_color": "#171717",
+  "display": "standalone"
+}

@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url(../../fonts/FiraCode-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sofia Sans";
+  src: url(../../fonts/SofiaSans-VariableFont_wght.ttf) format("truetype");
+}
+
+:root {
+  --vo-font-blue-300: hsl(180, 60%, 93%);
+  --vo-font-blue-200: hsl(180, 60%, 83%);
+  --vo-font-blue-50: hsl(208, 10%, 87%);
+
+  --vo-blue: #0d6efd;
+  --vo-indigo: #6610f2;
+  --vo-purple: #6f42c1;
+  --vo-pink: #d63384;
+  --vo-red: #dc3545;
+  --vo-orange: #fd7e14;
+  --vo-yellow: #ffc107;
+  --vo-green: #198754;
+  --vo-teal: #20c997;
+  --vo-cyan: #0dcaf0;
+
+  --vo-break-sm: 768px;
+  --vo-break-md: 1024px;
+  --vo-break-lg: 1280px;
+
+  --vo-bg-dark-500: hsl(0, 0%, 30%);
+  --vo-bg-dark-600: hsl(0, 0%, 20%);
+  --vo-bg-dark-700: hsl(0, 0%, 15%);
+  --vo-bg-dark-800: hsl(0, 0%, 9%);
+  --vo-bg-dark-900: hsl(0, 0%, 5%);
+
+  --vo-family-fira-code: "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  --vo-family-sofia-sans: "Sofia Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", "Liberation Sans", sans-serif;
+
+  /* NAVBAR */
+  --vo-nav-height: 5.5rem;
+}
+
+body {
+  background-color: var(--vo-bg-dark-800);
+  color: var(--vo-font-blue-200);
+  padding: 0 1rem;
+}
+
+a {
+  display: inline-block;
+  color: var(--vo-font-blue-200);
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+a:hover {
+  color: var(--vo-font-blue-300);
+}
+
+/* UTILS CLASSES */
+
+.container {
+  max-width: var(--vo-break-lg);
+  margin: 0 auto;
+}
+
+.code {
+  font-family: var(--vo-family-fira-code);
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
+footer.footer {
+  margin: 0 -1rem;
+}
+
+.section {
+  padding: var(--vo-nav-height) 0;
+  max-width: var(--vo-break-lg);
+  cursor: default;
+  margin: 0 auto;
+  min-height: calc(700px - var(--vo-nav-height));
+}
+
+.gradiented {
+  background: linear-gradient(to right, rgb(171, 55, 255), rgb(239, 68, 68), rgb(234, 179, 8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

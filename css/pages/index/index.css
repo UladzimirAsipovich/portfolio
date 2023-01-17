@@ -1,0 +1,13 @@
+/* USING COMPONENTS */
+@import url(../../components/badge.css);
+@import url(../../components/button.css);
+@import url(../../components/logo.css);
+@import url(../../components/native-slider.css);
+@import url(../../components/paragraph.css);
+@import url(../../components/section-header.css);
+
+/* PAGE STYLES */
+@import url(../index/hero.css);
+@import url(../index/about-me.css);
+@import url(../index/experience.css);
+@import url(../index/about-more.css);

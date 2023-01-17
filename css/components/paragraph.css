@@ -1,0 +1,14 @@
+.paragraph {
+  color: var(--vo-font-blue-50);
+  font-size: 1.25rem;
+  font-weight: 200;
+  line-height: 1.15;
+  text-indent: 2.25rem;
+}
+
+.paragraph.paragraph_mw-800 {
+  max-width: 800px;
+}
+.paragraph.paragraph_centered {
+  margin: 0 auto;
+}

@@ -1,0 +1,15 @@
+.about-more {
+  max-width: initial;
+  margin: 0 -1rem;
+  background: linear-gradient(rgb(23, 23, 23), rgb(88, 28, 135), rgb(124, 58, 237));
+}
+
+.about-more__wrapper {
+  max-width: var(--vo-break-md);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.about-more__content ul {
+  line-height: 1.5;
+}

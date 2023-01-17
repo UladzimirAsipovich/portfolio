@@ -1,0 +1,41 @@
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--vo-bg-dark-500);
+  border-radius: 10rem;
+  font-weight: 600;
+  margin: 0.25rem 0;
+}
+.badge.badge_blue {
+  background-color: var(--vo-blue);
+  color: var(--vo-font-blue-50);
+}
+.badge.badge_indigo {
+  background-color: var(--vo-indigo);
+}
+.badge.badge_purple {
+  background-color: var(--vo-purple);
+}
+.badge.badge_pink {
+  background-color: var(--vo-pink);
+}
+.badge.badge_red {
+  background-color: var(--vo-red);
+}
+.badge.badge_orange {
+  background-color: var(--vo-orange);
+  color: var(--vo-bg-dark-800);
+}
+.badge.badge_yellow {
+  background-color: var(--vo-yellow);
+  color: var(--vo-bg-dark-800);
+}
+.badge.badge_green {
+  background-color: var(--vo-green);
+}
+.badge.badge_teal {
+  background-color: var(--vo-teal);
+}
+.badge.badge_cyan {
+  background-color: var(--vo-cyan);
+}

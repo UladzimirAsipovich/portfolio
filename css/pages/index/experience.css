@@ -1,0 +1,69 @@
+.experience {
+  max-width: var(--vo-break-sm);
+  margin: 0 auto;
+}
+
+.experience__content {
+}
+
+.experience__content__example {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--vo-bg-dark-700);
+  transition: border-bottom-color 150ms ease;
+}
+
+.experience__content__example:hover {
+  border-bottom-color: var(--vo-blue);
+}
+
+.experience__content__example:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.experience__content__header {
+  font-family: var(--vo-family-sofia-sans);
+  color: var(--vo-font-blue-50);
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.experience__content__header h3 {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.experience__content__header h3::after {
+  content: "Перейти";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  font-size: 0.85rem;
+  font-weight: 100;
+  transition: opacity 150ms ease;
+}
+
+.experience__content__header:hover h3::after {
+  opacity: 1;
+}
+
+.experience__content__header small {
+  font-family: var(--vo-family-fira-code);
+  font-weight: 100;
+}
+
+.experience__content__header a {
+  font-family: inherit;
+  text-decoration: underline;
+  font-weight: 200;
+}
+
+.experience__content__preview {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.experience__content__description {
+  font-family: var(--vo-family-fira-code);
+  line-height: 1.25;
+}

@@ -1,0 +1,95 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column-reverse nowrap;
+  padding: 1rem 0;
+}
+
+.hero__introduce {
+  line-height: 1;
+  width: 100%;
+  flex: 1 1 60%;
+  cursor: default;
+}
+
+.hero__introduce_header {
+}
+
+.hero__introduce_greating {
+  margin-bottom: 1.5rem;
+}
+
+.hero__introduce_about {
+}
+
+.hero__introduce_description {
+  line-height: 1.25;
+  margin-bottom: 2rem;
+}
+
+.introduce_code-style {
+  font-family: var(--vo-family-fira-code);
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.introduce_sofia-style {
+  font-family: var(--vo-family-sofia-sans);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.introduce_font-stock {
+  color: var(--vo-font-blue-50);
+  font-size: 1.15rem;
+  font-weight: 100;
+}
+
+.hero__pic {
+  overflow: hidden;
+  height: 100%;
+  flex: 1 1 40%;
+  width: 100%;
+}
+
+.hero__pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: var(--vo-nav-height);
+    margin-bottom: var(--vo-nav-height);
+  }
+
+  .hero__introduce {
+    z-index: 1;
+  }
+
+  .hero__introduce_greating {
+    margin-bottom: 80vw;
+  }
+
+  .hero__pic {
+    position: absolute;
+    top: -30vw;
+    z-index: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-flow: row nowrap;
+  }
+}
+
+@media (min-width: 420px) {
+  .introduce_sofia-style {
+    font-size: 4rem;
+  }
+}

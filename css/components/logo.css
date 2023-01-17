@@ -1,0 +1,19 @@
+.logo {
+  display: inline-flex;
+  font-family: var(--vo-family-fira-code);
+}
+
+.logo span {
+  position: relative;
+  bottom: 0.3rem;
+  line-height: 1;
+}
+
+.logo span:nth-child(2) {
+  padding: 0 0.25rem;
+  transition: padding 150ms ease;
+}
+
+.logo:hover span:nth-child(2) {
+  padding: 0 0.5rem;
+}

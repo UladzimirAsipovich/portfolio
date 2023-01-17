@@ -1,0 +1,19 @@
+.button {
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--vo-font-blue-300);
+  border-radius: 0.5rem;
+  background-color: var(--vo-bg-dark-700);
+  transition: border-color, background-color 150ms ease;
+  font-size: 1.25rem;
+  font-family: var(--vo-family-sofia-sans);
+  font-weight: 200;
+}
+
+.button:hover {
+  border-color: var(--vo-font-blue-300);
+  background-color: var(--vo-bg-dark-800);
+}
+
+.button.button_gradiented {
+  border-image: linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8)) 1;
+}

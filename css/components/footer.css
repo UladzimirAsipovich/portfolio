@@ -1,0 +1,16 @@
+@import url(social.css);
+
+.footer {
+  padding: calc(var(--vo-nav-height) * 2) 0 var(--vo-nav-height) 0;
+  background: linear-gradient(rgb(124, 58, 237), rgb(23, 23, 23));
+}
+
+.footer__wrapper {
+  padding: 0 1rem;
+}
+
+.footer__year {
+  text-align: center;
+  color: var(--vo-bg-dark-500);
+  margin-top: 2.5rem;
+}

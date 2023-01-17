@@ -1,0 +1,51 @@
+.about-me {
+  margin: 0 -1rem;
+  background-image: radial-gradient(at 9% 39%, rgb(30, 11, 96) 0, transparent 66%),
+    radial-gradient(at 35% 100%, rgb(22, 21, 24) 0, transparent 7%),
+    radial-gradient(at 10% 100%, rgb(30, 11, 96) 0, transparent 10%),
+    radial-gradient(at 15% 100%, rgb(11, 6, 15) 0, transparent 19%),
+    radial-gradient(at 32% 13%, rgb(12, 2, 25) 0, transparent 10%),
+    radial-gradient(at 39% 83%, rgb(22, 21, 24) 0, transparent 15%);
+}
+
+.about-me__wrapper {
+  max-width: var(--vo-break-md);
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.about-me__content {
+}
+
+.about-me__content {
+}
+
+.about-me__pic {
+  display: block;
+  overflow: hidden;
+  width: 20rem;
+  float: left;
+  margin-top: -2.5rem;
+  margin-right: 1rem;
+}
+
+.about-me__pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about-me__content__skills {
+  display: flex;
+}
+
+.about-me__content__skills-list:nth-child(1) {
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .about-me__pic {
+    width: 50%;
+  }
+}

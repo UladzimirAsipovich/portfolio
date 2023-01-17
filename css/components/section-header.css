@@ -1,0 +1,17 @@
+.section-header {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.section-header__header {
+  font-family: var(--vo-family-fira-code);
+}
+
+.section-header__marker {
+  color: crimson;
+}
+
+.section-header__about {
+  font-weight: 900;
+  font-size: 3rem;
+}

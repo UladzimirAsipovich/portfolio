@@ -1,0 +1,85 @@
+.native-slider {
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.native-slider__slide {
+  display: none;
+  padding: 0 3rem 1.5rem 3rem;
+}
+
+.native-slider__prev,
+.native-slider__next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -1.5rem;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+  transition: 0.6s ease;
+  border-radius: 0 0.25rem 0.25rem 0;
+  user-select: none;
+}
+
+.native-slider__next {
+  right: 0;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.native-slider__prev:hover,
+.native-slider__next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.native-slider__text-counter {
+  color: #f2f2f2;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  padding-left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.native-slider__dots {
+  text-align: center;
+}
+
+.native-slider__dot {
+  cursor: pointer;
+  height: 0.75rem;
+  width: 0.75rem;
+  margin: 0 0.1rem;
+  background-color: var(--vo-bg-dark-600);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-right: 0.5rem;
+}
+
+.native-slider__dot:last-child {
+  margin-right: 0rem;
+}
+
+.native-slider__dot.active,
+.native-slider__dot:hover {
+  background-color: var(--vo-bg-dark-500);
+}
+
+.native-slider__slide.faded {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
